@@ -272,13 +272,69 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "line_style": 0,
+        "name": "dc_bus_ground",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgb(0, 0, 0)",
+        "wire_width": 12
+      },
+      {
+        "line_style": 0,
+        "name": "dc_bus_power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgb(194, 0, 0)",
+        "wire_width": 12
+      },
+      {
+        "line_style": 0,
+        "name": "mains",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgb(194, 194, 0)",
+        "wire_width": 12
+      },
+      {
+        "line_style": 0,
+        "name": "resonant_driver",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(0, 194, 194)",
+        "wire_width": 12
+      },
+      {
+        "line_style": 0,
+        "name": "resonant_power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(194, 0, 194)",
+        "wire_width": 24
       }
     ],
     "meta": {
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/ac-dc_bus/340V": [
+        "dc_bus_power"
+      ],
+      "/ac-dc_bus/DC_GND": [
+        "dc_bus_ground"
+      ],
+      "/ac-dc_bus/L1": [
+        "mains"
+      ],
+      "/ac-dc_bus/L2": [
+        "mains"
+      ],
+      "Net-(D1-+)": [
+        "dc_bus_power"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
