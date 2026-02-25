@@ -277,6 +277,56 @@
 				(justify left top)
 			)
 		)
+		(pin "MAINS_CURRENT" output
+			(at 71.12 50.8 0)
+			(uuid "32c8b2f0-95d2-4fd0-998b-9e5002f7c8fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "L1" input
+			(at 48.26 40.64 180)
+			(uuid "f7f1c1b4-b54f-4436-92a8-5941fd8efc1d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "L2" input
+			(at 48.26 50.8 180)
+			(uuid "e258bf5f-c6d0-44f8-8692-187ed6cf9285")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "340V" output
+			(at 71.12 40.64 0)
+			(uuid "e4c06166-a757-4430-8d49-1e5d4f9396ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_GND" output
+			(at 71.12 43.18 0)
+			(uuid "89b9c813-c222-4442-84f9-e0f558228652")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "control-board"
 				(path "/19f0fb17-7370-4e5d-b0c6-f8a287a0a6cc"

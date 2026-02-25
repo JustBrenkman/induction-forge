@@ -333,6 +333,12 @@
       ],
       "Net-(D1-+)": [
         "dc_bus_power"
+      ],
+      "Net-(K2-Pad12)": [
+        "dc_bus_ground"
+      ],
+      "Net-(U1-IP+)": [
+        "dc_bus_power"
       ]
     },
     "netclass_patterns": []
