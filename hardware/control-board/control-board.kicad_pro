@@ -478,6 +478,14 @@
     [
       "e7b4c07a-37b4-449f-81dc-9b26b84f5c20",
       "ac-dc_bus"
+    ],
+    [
+      "5e00e05d-479a-40b5-a7c4-ea384f0e6d47",
+      "inverter"
+    ],
+    [
+      "82fc321d-9008-4c55-8fa0-e6a1edfe0a4b",
+      "tank"
     ]
   ],
   "text_variables": {}

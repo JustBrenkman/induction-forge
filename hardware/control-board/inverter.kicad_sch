@@ -1,0 +1,52 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f11dcdd4-2930-4d19-8fc0-7be0b7c2ac09")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "DC_GND"
+		(shape input)
+		(at 100.33 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3851c4f4-f2a5-46f5-9e51-875fb4f01449")
+		(property "Netclass" "dc_bus_ground"
+			(at 100.33 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(hierarchical_label "340V"
+		(shape input)
+		(at 100.33 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac15f3fe-ba68-4830-98b1-48ceebc6b1f4")
+		(property "Netclass" "dc_bus_power"
+			(at 100.33 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+)
