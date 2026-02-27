@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "c598c353-68eb-457e-a8fd-b5a39fec9a00")
 	(paper "A4")
+	(title_block
+		(title "AC-DC Bus")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:OPA365xxD"
 			(pin_names
@@ -2863,16 +2866,6 @@
 		)
 		(uuid "29558702-2378-4bf1-9de3-3a4bba6443d5")
 	)
-	(text "High Voltage"
-		(exclude_from_sim no)
-		(at 45.72 141.478 0)
-		(effects
-			(font
-				(size 3.81 3.81)
-			)
-		)
-		(uuid "32f57676-35b0-4c3f-bcb7-a592e69b0b3b")
-	)
 	(text "Passive bleeder, when mains is powered relay is open. \nWhen mains is dropped then bleeder is engaged"
 		(exclude_from_sim no)
 		(at 223.266 144.272 0)
@@ -2882,6 +2875,26 @@
 			)
 		)
 		(uuid "40a50fca-e452-435f-89f0-ca705ce7b170")
+	)
+	(text "TODO: Fix relays and contactor schematic with real components"
+		(exclude_from_sim no)
+		(at 56.134 187.452 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9b1a310b-46f8-43db-9321-081e589425e7")
+	)
+	(text "HIGH VOLTAGE"
+		(exclude_from_sim no)
+		(at 41.656 144.018 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "c8767b20-a50b-4776-8b30-f715102fe764")
 	)
 	(junction
 		(at 213.36 72.39)

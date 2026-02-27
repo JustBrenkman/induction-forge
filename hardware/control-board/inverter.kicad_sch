@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "f11dcdd4-2930-4d19-8fc0-7be0b7c2ac09")
 	(paper "A4")
+	(title_block
+		(title "Inverter")
+	)
 	(lib_symbols)
 	(hierarchical_label "DC_GND"
 		(shape input)
