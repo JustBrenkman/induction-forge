@@ -331,11 +331,29 @@
       "/ac-dc_bus/L2": [
         "mains"
       ],
+      "/tank/INVERTER_A": [
+        "resonant_driver"
+      ],
+      "/tank/INVERTER_B": [
+        "resonant_driver"
+      ],
       "Net-(D1-+)": [
         "dc_bus_power"
       ],
       "Net-(K2-Pad12)": [
         "dc_bus_ground"
+      ],
+      "Net-(T1-SA)": [
+        "resonant_power"
+      ],
+      "Net-(T1-SB)": [
+        "resonant_power"
+      ],
+      "Net-(T2-AA)": [
+        "resonant_power"
+      ],
+      "Net-(T2-AB)": [
+        "resonant_power"
       ],
       "Net-(U1-IP+)": [
         "dc_bus_power"
