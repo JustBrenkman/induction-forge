@@ -125,26 +125,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 43.18) (xy 83.82 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ad00b1b-2b47-4ff7-a0a4-fa85f9fddd4f")
-	)
-	(wire
-		(pts
-			(xy 71.12 40.64) (xy 83.82 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e0c3a2f-edcd-41c0-b4d5-9f1ae0645d75")
-	)
-	(wire
-		(pts
 			(xy 43.18 52.07) (xy 43.18 43.18)
 		)
 		(stroke
@@ -306,8 +286,8 @@
 		)
 	)
 	(sheet
-		(at 83.82 38.1)
-		(size 25.4 17.78)
+		(at 92.71 38.1)
+		(size 25.4 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -322,7 +302,7 @@
 		)
 		(uuid "5e00e05d-479a-40b5-a7c4-ea384f0e6d47")
 		(property "Sheetname" "inverter"
-			(at 83.82 37.3884 0)
+			(at 92.71 37.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -331,7 +311,7 @@
 			)
 		)
 		(property "Sheetfile" "inverter.kicad_sch"
-			(at 83.82 56.4646 0)
+			(at 92.71 59.0046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -340,7 +320,7 @@
 			)
 		)
 		(pin "340V" input
-			(at 83.82 40.64 180)
+			(at 92.71 40.64 180)
 			(uuid "f76e0747-de5c-4d64-93cc-6fbb380ea972")
 			(effects
 				(font
@@ -350,7 +330,7 @@
 			)
 		)
 		(pin "DC_GND" input
-			(at 83.82 43.18 180)
+			(at 92.71 43.18 180)
 			(uuid "ae4abdf7-5edb-431b-9ea7-bc7801685880")
 			(effects
 				(font
@@ -369,7 +349,7 @@
 	)
 	(sheet
 		(at 123.19 38.1)
-		(size 25.4 17.78)
+		(size 25.4 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -393,7 +373,7 @@
 			)
 		)
 		(property "Sheetfile" "tank.kicad_sch"
-			(at 123.19 56.4646 0)
+			(at 123.19 59.0046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -411,7 +391,7 @@
 	)
 	(sheet
 		(at 48.26 38.1)
-		(size 22.86 17.78)
+		(size 33.02 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -435,7 +415,7 @@
 			)
 		)
 		(property "Sheetfile" "ac-dc_bus.kicad_sch"
-			(at 48.26 56.4646 0)
+			(at 48.26 59.0046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -444,7 +424,7 @@
 			)
 		)
 		(pin "MAINS_CURRENT" output
-			(at 71.12 53.34 0)
+			(at 81.28 55.88 0)
 			(uuid "32c8b2f0-95d2-4fd0-998b-9e5002f7c8fc")
 			(effects
 				(font
@@ -474,7 +454,7 @@
 			)
 		)
 		(pin "340V" output
-			(at 71.12 40.64 0)
+			(at 81.28 40.64 0)
 			(uuid "e4c06166-a757-4430-8d49-1e5d4f9396ff")
 			(effects
 				(font
@@ -484,7 +464,7 @@
 			)
 		)
 		(pin "DC_GND" output
-			(at 71.12 43.18 0)
+			(at 81.28 43.18 0)
 			(uuid "89b9c813-c222-4442-84f9-e0f558228652")
 			(effects
 				(font
@@ -494,7 +474,7 @@
 			)
 		)
 		(pin "BYPASS_SOFT_START" input
-			(at 71.12 48.26 0)
+			(at 81.28 50.8 0)
 			(uuid "d6a78d5b-2b7e-491b-b51b-9749c347a4d2")
 			(effects
 				(font
@@ -504,8 +484,18 @@
 			)
 		)
 		(pin "DC_BUS_VOLTAGE" output
-			(at 71.12 50.8 0)
+			(at 81.28 53.34 0)
 			(uuid "5ac0ede6-8cc9-4a93-9409-2fd123158551")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_BUS_VOLTAGE_VALID" output
+			(at 81.28 48.26 0)
+			(uuid "36ac1408-fa29-4782-a274-9f04768ebcb7")
 			(effects
 				(font
 					(size 1.27 1.27)
