@@ -1,4 +1,6 @@
 (sym_lib_table
   (version 7)
   (lib (name "isolated_opamp")(type "KiCad")(uri "${KIPRJMOD}/../lib/kicad-lib/symbols/isolated_opamps.kicad_sym")(options "")(descr ""))
+  (lib (name "gate_drivers")(type "KiCad")(uri "${KIPRJMOD}/../lib/kicad-lib/symbols/gate_drivers.kicad_sym")(options "")(descr ""))
+  (lib (name "sic_mosfet")(type "KiCad")(uri "${KIPRJMOD}/../lib/kicad-lib/symbols/sic_mosfet.kicad_sym")(options "")(descr ""))
 )

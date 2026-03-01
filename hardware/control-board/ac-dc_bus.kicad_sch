@@ -6377,7 +6377,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "25289af7-ffaa-4542-a503-b341fde164a1")
+		(uuid "25289af7-ffaa-4542-a503-b341fde164a2")
 		(property "Reference" "#PWR02"
 			(at 257.81 109.22 0)
 			(effects
@@ -6423,7 +6423,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "5afc3c77-78d6-4c58-820a-15e7188213f4")
+			(uuid "5afc3c77-78d6-4c58-820a-15e7188213f5")
 		)
 		(instances
 			(project ""
