@@ -153,6 +153,16 @@
 		)
 		(uuid "f31a0577-28fc-4c85-a53f-d3913b3e18b6")
 	)
+	(wire
+		(pts
+			(xy 137.16 45.72) (xy 142.24 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbde9046-4ccc-49af-b5de-df56579ca1e3")
+	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 35.56 40.64 90)
@@ -286,8 +296,8 @@
 		)
 	)
 	(sheet
-		(at 92.71 38.1)
-		(size 25.4 20.32)
+		(at 111.76 38.1)
+		(size 25.4 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -302,7 +312,7 @@
 		)
 		(uuid "5e00e05d-479a-40b5-a7c4-ea384f0e6d47")
 		(property "Sheetname" "inverter"
-			(at 92.71 37.3884 0)
+			(at 111.76 37.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -311,7 +321,7 @@
 			)
 		)
 		(property "Sheetfile" "inverter.kicad_sch"
-			(at 92.71 59.0046 0)
+			(at 111.76 65.3546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -320,7 +330,7 @@
 			)
 		)
 		(pin "340V" input
-			(at 92.71 40.64 180)
+			(at 111.76 40.64 180)
 			(uuid "f76e0747-de5c-4d64-93cc-6fbb380ea972")
 			(effects
 				(font
@@ -330,8 +340,48 @@
 			)
 		)
 		(pin "DC_GND" input
-			(at 92.71 43.18 180)
+			(at 111.76 43.18 180)
 			(uuid "ae4abdf7-5edb-431b-9ea7-bc7801685880")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TANK_A" input
+			(at 137.16 45.72 0)
+			(uuid "90f34042-e756-4957-becd-d0c2edf50f3e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SIDE_A_INA" input
+			(at 111.76 48.26 180)
+			(uuid "3fd7b937-ee91-4e22-a9de-ea7bfa949c4e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SIDE_A_INB" input
+			(at 111.76 50.8 180)
+			(uuid "8ad4a555-fe46-4b31-a44f-5a6974aee57c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SIDE_A_DISABLE" input
+			(at 111.76 53.34 180)
+			(uuid "de286fae-77a5-4dee-9a53-e637cb5a5865")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -348,7 +398,7 @@
 		)
 	)
 	(sheet
-		(at 123.19 38.1)
+		(at 142.24 38.1)
 		(size 25.4 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -364,7 +414,7 @@
 		)
 		(uuid "82fc321d-9008-4c55-8fa0-e6a1edfe0a4b")
 		(property "Sheetname" "tank"
-			(at 123.19 37.3884 0)
+			(at 142.24 37.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -373,12 +423,32 @@
 			)
 		)
 		(property "Sheetfile" "tank.kicad_sch"
-			(at 123.19 59.0046 0)
+			(at 142.24 59.0046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "SIDE_B" input
+			(at 142.24 49.53 180)
+			(uuid "823b204a-71fa-4fbc-a8fb-47099d74a3f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SIDE_A" input
+			(at 142.24 45.72 180)
+			(uuid "8106d24b-7614-43be-8c3c-9dba28c01bae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -474,7 +544,7 @@
 			)
 		)
 		(pin "BYPASS_SOFT_START" input
-			(at 81.28 50.8 0)
+			(at 81.28 48.26 0)
 			(uuid "d6a78d5b-2b7e-491b-b51b-9749c347a4d2")
 			(effects
 				(font
@@ -494,7 +564,7 @@
 			)
 		)
 		(pin "DC_BUS_VOLTAGE_VALID" output
-			(at 81.28 48.26 0)
+			(at 81.28 50.8 0)
 			(uuid "36ac1408-fa29-4782-a274-9f04768ebcb7")
 			(effects
 				(font

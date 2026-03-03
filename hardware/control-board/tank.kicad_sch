@@ -774,7 +774,7 @@
 		)
 		(uuid "ff90deab-7fe4-4971-a786-95a4194385b0")
 	)
-	(hierarchical_label "INVERTER_B"
+	(hierarchical_label "SIDE_B"
 		(shape input)
 		(at 93.98 104.14 180)
 		(effects
@@ -785,7 +785,7 @@
 		)
 		(uuid "855bf1fa-8f7b-46e1-9860-add5270d1139")
 	)
-	(hierarchical_label "INVERTER_A"
+	(hierarchical_label "SIDE_A"
 		(shape input)
 		(at 93.98 93.98 180)
 		(effects

@@ -538,10 +538,16 @@
       "/inverter/DC_GND": [
         "dc_bus_ground"
       ],
+      "/inverter/TANK_A": [
+        "resonant_driver"
+      ],
       "/tank/INVERTER_A": [
         "resonant_driver"
       ],
       "/tank/INVERTER_B": [
+        "resonant_driver"
+      ],
+      "/tank/SIDE_B": [
         "resonant_driver"
       ],
       "GNDPWR": [
