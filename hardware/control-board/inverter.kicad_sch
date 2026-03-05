@@ -2508,6 +2508,16 @@
 		)
 		(uuid "5d410771-e421-4a76-ae8d-040f10316e77")
 	)
+	(text "Ron: (24.0 - 0.8) / ((1.47 * 5 * 3.3 * 3.3) / (1.47 + 5 + 3.3 + 3.3) -> 3.8A"
+		(exclude_from_sim no)
+		(at 88.138 181.356 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "78a139ab-2779-4412-b313-7eb8b4c6e070")
+	)
 	(text "8.2.2.7.2"
 		(exclude_from_sim no)
 		(at 137.668 49.784 0)
@@ -2530,7 +2540,7 @@
 	)
 	(text "8.2.2.9 eg. 3"
 		(exclude_from_sim no)
-		(at 162.306 50.292 0)
+		(at 162.814 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2557,6 +2567,16 @@
 			)
 		)
 		(uuid "d79b0f1f-e63e-4629-bbd2-9e449a45994c")
+	)
+	(text "Dboot footprint might not be correct"
+		(exclude_from_sim no)
+		(at 153.924 42.164 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dc0a2b0f-9bf9-49ae-b5fa-d8de812b1b36")
 	)
 	(text "8.2.2.1"
 		(exclude_from_sim no)
@@ -3987,8 +4007,8 @@
 				)
 			)
 		)
-		(property "Value" "C"
-			(at 153.416 65.786 90)
+		(property "Value" "1uF"
+			(at 154.686 65.786 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4047,7 +4067,7 @@
 		(dnp no)
 		(uuid "23ceefd7-0669-470b-9062-345f00b612be")
 		(property "Reference" "D7"
-			(at 150.876 71.882 0)
+			(at 147.32 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4055,7 +4075,7 @@
 			)
 		)
 		(property "Value" "SMBJ5340B-TP"
-			(at 160.528 73.406 0)
+			(at 160.782 76.454 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4253,7 +4273,7 @@
 				)
 			)
 		)
-		(property "Value" "Ron"
+		(property "Value" "3.3"
 			(at 187.96 72.39 90)
 			(effects
 				(font
@@ -4321,7 +4341,7 @@
 			)
 		)
 		(property "Value" "SMBJ5340B-TP"
-			(at 160.528 58.166 0)
+			(at 160.528 61.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4591,8 +4611,8 @@
 				)
 			)
 		)
-		(property "Value" "C"
-			(at 153.67 50.038 90)
+		(property "Value" "1uF"
+			(at 154.432 50.546 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5081,7 +5101,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Dboot"
+		(property "Value" "C4D02120E"
 			(at 130.81 44.4499 90)
 			(effects
 				(font
@@ -5090,7 +5110,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
 			(at 128.27 43.18 0)
 			(effects
 				(font
@@ -5099,7 +5119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://assets.wolfspeed.com/uploads/2023/10/Wolfspeed_C4D02120E_data_sheet.pdf"
 			(at 128.27 43.18 0)
 			(effects
 				(font
@@ -5300,7 +5320,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "MSS1P4-M3/89A"
 			(at 198.12 52.07 0)
 			(effects
 				(font
@@ -5308,7 +5328,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 198.12 55.88 0)
 			(effects
 				(font
@@ -5317,7 +5337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/89019/mss1p4.pdf"
 			(at 198.12 55.88 0)
 			(effects
 				(font
@@ -5451,7 +5471,7 @@
 				)
 			)
 		)
-		(property "Value" "Ron"
+		(property "Value" "3.3"
 			(at 187.96 57.15 90)
 			(effects
 				(font
@@ -5902,7 +5922,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "MSS1P4-M3/89A"
 			(at 198.374 68.834 0)
 			(effects
 				(font
@@ -5910,7 +5930,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 198.12 71.12 0)
 			(effects
 				(font
@@ -5919,7 +5939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/89019/mss1p4.pdf"
 			(at 198.12 71.12 0)
 			(effects
 				(font
@@ -6124,7 +6144,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Rboot"
+		(property "Value" "2.6"
 			(at 130.81 35.5599 0)
 			(effects
 				(font
