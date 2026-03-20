@@ -580,6 +580,12 @@
       "Net-(U1-IP+)": [
         "dc_bus_power"
       ],
+      "USB_DN": [
+        "90Ohm"
+      ],
+      "USB_DP": [
+        "90Ohm"
+      ],
       "VDC": [
         "dc_bus_power"
       ]
@@ -729,6 +735,10 @@
     [
       "82fc321d-9008-4c55-8fa0-e6a1edfe0a4b",
       "tank"
+    ],
+    [
+      "2336dfb2-b53a-4465-8574-3baabc529d29",
+      "mcu"
     ]
   ],
   "text_variables": {}
